@@ -15,7 +15,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Unzip the project, then:
 
 ```bash
-cd linear_updates
+cd linear-updates
 uv sync
 ```
 
@@ -89,7 +89,7 @@ crontab -e
 Add this line (replace paths with your actual paths):
 
 ```
-30 11 * * 1 cd /Users/yourname/linear_updates && ~/.local/bin/uv run linear-updates post-to-linear >> /tmp/linear-updates.log 2>&1
+30 11 * * 1 cd /Users/yourname/linear-updates && ~/.local/bin/uv run linear-updates post-to-linear >> /tmp/linear-updates.log 2>&1
 ```
 
 > **Note:** 5 PM IST = 11:30 AM UTC. The `30 11 * * 1` means "11:30 AM UTC every Monday".

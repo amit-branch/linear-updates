@@ -74,7 +74,7 @@ All commands show a progress spinner while fetching data.
 
 Run weekly on **Mondays 5:00 PM IST** via crontab:
 ```
-30 11 * * 1 cd /path/to/linear_updates && uv run linear-updates post-to-linear
+30 11 * * 1 cd /path/to/linear-updates && uv run linear-updates post-to-linear
 ```
 
 ## Status
